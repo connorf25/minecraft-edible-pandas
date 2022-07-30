@@ -35,6 +35,8 @@ public class EdiblePandas
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModItems.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void setup(final FMLCommonSetupEvent event)
