@@ -12,7 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS
             = DeferredRegister.create(ForgeRegistries.ITEMS, EdiblePandas.MOD_ID);
 
-    public static final RegistryObject<Item> RAW_PANDA_MEAT = ITEMS.register("raw_panda_meat",
+    public static final RegistryObject<Item> PANDA_MEAT_RAW = ITEMS.register("panda_meat_raw",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
     public static void register(IEventBus eventBus) {
