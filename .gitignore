@@ -1,5 +1,6 @@
 # Uneeded files to gitignore
 build/
+run/
 .idea/
 .gradle/
 
