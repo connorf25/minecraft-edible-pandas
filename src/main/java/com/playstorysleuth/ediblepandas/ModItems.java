@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> PANDA_MEAT_RAW = ITEMS.register("panda_meat_raw",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
+    public static final RegistryObject<Item> PANDA_MEAT_COOKED = ITEMS.register("panda_meat_cooked",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
