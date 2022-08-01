@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "ediblepandas:panda_meat_raw"
+  },
+  "result": "ediblepandas:panda_meat_cooked",
+  "experience": 0.1,
+  "cookingTime": 200
+}
